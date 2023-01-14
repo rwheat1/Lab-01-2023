@@ -7,14 +7,25 @@ Ryan W
 
 ``` r
 library(tidyverse) 
+```
+
+    ## Warning: package 'tidyverse' was built under R version 4.1.3
+
+``` r
 library(datasauRus)
 ```
+
+    ## Warning: package 'datasauRus' was built under R version 4.1.3
 
 ## Exercises
 
 ### Exercise 1
 
-Remove this text, and add your answer for Exercise 1 here.
+Datasaurus_Dozen has:
+
+1846 rows 3 columns 3 variables: dataset, x-values, and y-values
+
+datasaurus_dozen %>% count(dataset) %>% print(13)
 
 ### Exercise 2
 
